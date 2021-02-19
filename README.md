@@ -1,8 +1,9 @@
 # Text-Similarity
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Folder Structure](#folder-structure)
 * [Important Notes](#important-notes)
+* [Technologies](#technologies)
 * [Setup](#setup)
 
 
@@ -15,15 +16,18 @@ The ```text_similarity()``` class has several methods that you may find useful f
 * The .dissimilarities_1() method returns a list of words that are unique to the first text sample.
 * The .dissimilarities_2() method returns a list of words that are unique to the second text sample.
 	
+## Folder Structure
+This git repository contains a stand-alone python file that just performs the text similarity comparison, without deploying it via flask, and a separate folder structure with the necessary .py file and .html template for deployment via flask.	
+
+## Important Notes
+This program utilizes the removal of stopwords, as outlined by [NLTK's list of English Stopwords](https://gist.github.com/sebleier/554280). 
+This program also attempts to handle contractions by separating them into their originating words.
+
 ## Technologies
 Project is created with:
 * Python 3.9.1
 * Flask 1.1.2
 * Werkzeug 1.0.1
-
-## Important Notes
-This program utilizes the removal of stopwords, as outlined by [NLTK's list of English Stopwords](https://gist.github.com/sebleier/554280). 
-This program also attempts to handle contractions by separating them into their originating words.
 	
 ## Setup
 To run this project, install it locally by cloning the necessary scripts and folder structure, then run the python script:
