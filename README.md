@@ -30,7 +30,7 @@ Project is created with:
 * Werkzeug 1.0.1
 	
 ## Setup
-To run this project, install it locally by cloning the necessary scripts and folder structure, then run the python script:
+To run this project, download the folder structure and run via your preferred Python environment. The below steps may assist you:
 
 ```
 https://github.com/jkiefn1/Text-Similarity.git
