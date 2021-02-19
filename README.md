@@ -17,7 +17,7 @@ The ```text_similarity()``` class has several methods that you may find useful f
 * The .dissimilarities_2() method returns a list of words that are unique to the second text sample.
 	
 ## Folder Structure
-This git repository contains a stand-alone python file that just performs the text similarity comparison, without deploying it via flask, and a separate folder structure with the necessary .py file and .html template for deployment via flask.	
+This git repository contains a stand-alone python file that just performs the text similarity comparison, without deploying it via flask (```Text_Similarity.py```), and a separate folder structure with the necessary .py file and .html template for deployment via flask (```Text_Sim_App```).	
 
 ## Important Notes
 This program utilizes the removal of stopwords, as outlined by [NLTK's list of English Stopwords](https://gist.github.com/sebleier/554280). 
