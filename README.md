@@ -5,16 +5,16 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is a simple text similary program.
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Python 3.9.1
+* Flask 1.1.2
+* Werkzeug 1.0.1
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using the command prompt, terminal, etc.:
 
 ```
 $ cd ../lorem
