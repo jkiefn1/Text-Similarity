@@ -17,7 +17,7 @@ Project is created with:
 To run this project, install it locally using the command prompt, terminal, etc.:
 
 ```
-$ https://github.com/jkiefn1/Text-Similarity.git
-$ cd Text-Similarity
-$ $ python3 api.py
+https://github.com/jkiefn1/Text-Similarity.git
+cd Text-Similarity
+$ python3 api.py
 ```
